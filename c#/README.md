@@ -1,0 +1,1 @@
+In order for the C# VSCode extension to recognise the project we need the `project.json`, `omnisharp.json` and `*.sln` files.

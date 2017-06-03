@@ -5,6 +5,7 @@
 #include <memory>
 #include <stdlib.h>
 #include <vector>
+
 // uncomment to print out which object is destructed
 // #define DESTRUCTION
 
@@ -32,7 +33,7 @@ static const int ITERS = 1;
 #else
 using MyType = std::vector<int>;
 static const int N = 100;
-static const int ITERS = 300000;
+static const int ITERS = 30000;
 #endif
 
 // TODO copy settings from workpc, + snippets

@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <numeric>
 
 void timeit(const std::function<void()> &to_be_timed, const size_t iterations,
             const std::string &name = "Test") {

@@ -3,6 +3,23 @@
         "array": "cpp",
         "initializer_list": "cpp",
         "iostream": "cpp",
-        "*.tcc": "cpp"
+        "*.tcc": "cpp",
+        "type_traits": "cpp",
+        "cctype": "cpp",
+        "cmath": "cpp",
+        "cstdarg": "cpp",
+        "cstddef": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cstring": "cpp",
+        "cwchar": "cpp",
+        "chrono": "cpp",
+        "cstdint": "cpp",
+        "ctime": "cpp",
+        "exception": "cpp",
+        "iosfwd": "cpp",
+        "limits": "cpp",
+        "ratio": "cpp",
+        "typeinfo": "cpp"
     }
 }

@@ -25,6 +25,3 @@ def median1d(data, kernel=3):
 
     kernel_width = (kernel - 1) / 2
     return f(data, kernel, kernel_width, size=data.size)
-
-
-median1d(d, 3)

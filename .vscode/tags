@@ -1,0 +1,108 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DO_SUB_DOCK_CREATION	../py/docking_dockables.py	/^DO_SUB_DOCK_CREATION = False$/;"	kind:variable	line:17
+ExamplePresenterTest	../py/mocking/example_presenter_test.py	/^class ExamplePresenterTest(unittest.TestCase):$/;"	kind:class	line:15
+ImgpyExamplePresenter	../py/mocking/example_presenter.py	/^class ImgpyExamplePresenter(object):$/;"	kind:class	line:10
+ImgpyExampleView	../py/mocking/example_view_abs.py	/^class ImgpyExampleView:$/;"	kind:class	line:4
+ImgpyMainWindowView	../py/matplotlib_pyqt.py	/^class ImgpyMainWindowView(QtGui.QMainWindow):$/;"	kind:class	line:78
+Index	../py/buttons.py	/^class Index(object):$/;"	kind:class	line:14
+MyDynamicMplCanvas	../py/matplotlib_pyqt.py	/^class MyDynamicMplCanvas(MyMplCanvas):$/;"	kind:class	line:58
+MyMplCanvas	../py/matplotlib_pyqt.py	/^class MyMplCanvas(FigureCanvas):$/;"	kind:class	line:29
+MyRectangleSelector	../py/methplotlib_rectangle.py	/^class MyRectangleSelector(widgets.RectangleSelector):$/;"	kind:class	line:7
+MyStaticMplCanvas	../py/matplotlib_pyqt.py	/^class MyStaticMplCanvas(MyMplCanvas):$/;"	kind:class	line:49
+N	../py/methplotlib_rectangle.py	/^N = 100000  # If N is large one can see$/;"	kind:variable	line:34
+N	../py/rectangle_selector.py	/^N = 100000  # If N is large one can see$/;"	kind:variable	line:36
+Notification	../py/mocking/example_presenter.py	/^class Notification(IntEnum):$/;"	kind:class	line:5
+RESET_VALUE_CLICKED	../py/mocking/example_presenter.py	/^    RESET_VALUE_CLICKED = 2$/;"	kind:variable	line:7
+SET_VALUE	../py/mocking/example_presenter.py	/^    SET_VALUE = 1,$/;"	kind:variable	line:6
+SelectFromCollection	../py/lasso_selection.py	/^class SelectFromCollection(object):$/;"	kind:class	line:11
+SomeClass	../py/importing/to_be_imported.py	/^class SomeClass(object):$/;"	kind:class	line:10
+Some_import	../py/importing/to_be_imported.py	/^def Some_import():$/;"	kind:function	line:6
+_DOCK_COUNT	../py/docking_dockables.py	/^_DOCK_COUNT = 0$/;"	kind:variable	line:23
+_DOCK_OPTS	../py/docking_dockables.py	/^_DOCK_OPTS = QtGui.QMainWindow.AnimatedDocks$/;"	kind:variable	line:19
+_DOCK_POSITIONS	../py/docking_dockables.py	/^_DOCK_POSITIONS = (QtCore.Qt.LeftDockWidgetArea, QtCore.Qt.TopDockWidgetArea,$/;"	kind:variable	line:24
+__init__	../py/importing/to_be_imported.py	/^    def __init__(self):$/;"	kind:member	line:11
+__init__	../py/lasso_selection.py	/^    def __init__(self, ax, collection, alpha_other=0.3):$/;"	kind:member	line:34
+__init__	../py/matplotlib_pyqt.py	/^    def __init__(self):$/;"	kind:member	line:79
+__init__	../py/matplotlib_pyqt.py	/^    def __init__(self, *args, **kwargs):$/;"	kind:member	line:61
+__init__	../py/matplotlib_pyqt.py	/^    def __init__(self, parent=None, width=5, height=4, dpi=100):$/;"	kind:member	line:32
+__init__	../py/mocking/example_presenter.py	/^    def __init__(self, view):$/;"	kind:member	line:11
+__init__.py	../py/importing/__init__.py	1;"	kind:file	line:1
+_reset_view_value	../py/mocking/example_presenter.py	/^    def _reset_view_value(self):$/;"	kind:member	line:28
+_update_view_value	../py/mocking/example_presenter.py	/^    def _update_view_value(self):$/;"	kind:member	line:32
+about	../py/matplotlib_pyqt.py	/^    def about(self):$/;"	kind:member	line:114
+addDocks	../py/docking_dockables.py	/^def addDocks(window, name, subDocks=True):$/;"	kind:function	line:47
+app	../py/docking_dockables.py	/^    app = QtGui.QApplication([])$/;"	kind:variable	line:77
+aw	../py/matplotlib_pyqt.py	/^aw = ImgpyMainWindowView()$/;"	kind:variable	line:127
+axnext	../py/buttons.py	/^axnext = plt.axes([0.81, 0.05, 0.1, 0.075])$/;"	kind:variable	line:34
+axprev	../py/buttons.py	/^axprev = plt.axes([0.7, 0.05, 0.1, 0.075])$/;"	kind:variable	line:33
+bnext	../py/buttons.py	/^bnext = Button(axnext, 'Next')$/;"	kind:variable	line:35
+boop.py	../py/importing/boop.py	1;"	kind:file	line:1
+boop1.py	../py/importing/boop1.py	1;"	kind:file	line:1
+bprev	../py/buttons.py	/^bprev = Button(axprev, 'Previous')$/;"	kind:variable	line:37
+buttons.py	../py/buttons.py	1;"	kind:file	line:1
+callback	../py/buttons.py	/^callback = Index()$/;"	kind:variable	line:32
+cli_checks_performance.py	../py/cli_checks_performance.py	1;"	kind:file	line:1
+cli_compl.py	../py/cli_completition/cli_compl.py	1;"	kind:file	line:1
+closeEvent	../py/matplotlib_pyqt.py	/^    def closeEvent(self, ce):$/;"	kind:member	line:111
+compute_initial_figure	../py/matplotlib_pyqt.py	/^    def compute_initial_figure(self):$/;"	kind:member	line:45
+compute_initial_figure	../py/matplotlib_pyqt.py	/^    def compute_initial_figure(self):$/;"	kind:member	line:52
+compute_initial_figure	../py/matplotlib_pyqt.py	/^    def compute_initial_figure(self):$/;"	kind:member	line:67
+data	../py/lasso_selection.py	/^    data = np.random.rand(100, 2)$/;"	kind:variable	line:71
+disconnect	../py/lasso_selection.py	/^    def disconnect(self):$/;"	kind:member	line:60
+docking_dockables.py	../py/docking_dockables.py	1;"	kind:file	line:1
+example_presenter.py	../py/mocking/example_presenter.py	1;"	kind:file	line:1
+example_presenter_test.py	../py/mocking/example_presenter_test.py	1;"	kind:file	line:1
+example_view_abs.py	../py/mocking/example_view_abs.py	1;"	kind:file	line:1
+fileQuit	../py/matplotlib_pyqt.py	/^    def fileQuit(self):$/;"	kind:member	line:108
+files	../py/cli_checks_performance.py	/^    files = [$/;"	kind:variable	line:26
+freqs	../py/buttons.py	/^freqs = np.arange(2, 20, 3)$/;"	kind:variable	line:5
+get_value	../py/mocking/example_view_abs.py	/^    def get_value(self):$/;"	kind:member	line:5
+ind	../py/buttons.py	/^    ind = 0$/;"	kind:variable	line:15
+lasso_selection.py	../py/lasso_selection.py	1;"	kind:file	line:1
+line_select_callback	../py/methplotlib_rectangle.py	/^def line_select_callback(eclick, erelease):$/;"	kind:function	line:14
+line_select_callback	../py/rectangle_selector.py	/^def line_select_callback(eclick, erelease):$/;"	kind:function	line:16
+main	../py/cli_completition/cli_compl.py	/^def main(**args):$/;"	kind:function	line:10
+main	../py/docking_dockables.py	/^def main():$/;"	kind:function	line:29
+main	../py/python_import_speed_test.py	/^def main():$/;"	kind:function	line:4
+mainWindow	../py/docking_dockables.py	/^    mainWindow = main()$/;"	kind:variable	line:78
+matplotlib_pyqt.py	../py/matplotlib_pyqt.py	1;"	kind:file	line:1
+methplotlib_rectangle.py	../py/methplotlib_rectangle.py	1;"	kind:file	line:1
+multiple	../py/cli_checks_performance.py	/^def multiple(files):$/;"	kind:function	line:6
+next	../py/buttons.py	/^    def next(self, event):$/;"	kind:member	line:17
+notify	../py/mocking/example_presenter.py	/^    def notify(self, signal):$/;"	kind:member	line:16
+number	../py/cli_checks_performance.py	/^        number=100000))$/;"	kind:variable	line:34
+onselect	../py/lasso_selection.py	/^    def onselect(self, verts):$/;"	kind:member	line:52
+prev	../py/buttons.py	/^    def prev(self, event):$/;"	kind:member	line:24
+progname	../py/matplotlib_pyqt.py	/^progname = os.path.basename(sys.argv[0])$/;"	kind:variable	line:25
+progversion	../py/matplotlib_pyqt.py	/^progversion = "0.1"$/;"	kind:variable	line:26
+pts	../py/lasso_selection.py	/^    pts = ax.scatter(data[:, 0], data[:, 1], s=80)$/;"	kind:variable	line:76
+python_import_speed_test.py	../py/python_import_speed_test.py	1;"	kind:file	line:1
+qApp	../py/matplotlib_pyqt.py	/^qApp = QtGui.QApplication(sys.argv)$/;"	kind:variable	line:125
+rectangle_selector.py	../py/rectangle_selector.py	1;"	kind:file	line:1
+release	../py/methplotlib_rectangle.py	/^    def release(self, event):$/;"	kind:member	line:8
+s	../py/buttons.py	/^s = np.sin(2 * np.pi * freqs[0] * t)$/;"	kind:variable	line:10
+selector	../py/lasso_selection.py	/^    selector = SelectFromCollection(ax, pts)$/;"	kind:variable	line:77
+setUp	../py/mocking/example_presenter_test.py	/^    def setUp(self):$/;"	kind:member	line:16
+set_value	../py/mocking/example_view_abs.py	/^    def set_value(self, val):$/;"	kind:member	line:8
+single	../py/cli_checks_performance.py	/^def single(files):$/;"	kind:function	line:19
+subplot_kw	../py/lasso_selection.py	/^    subplot_kw = dict(xlim=(0, 1), ylim=(0, 1), autoscale_on=False)$/;"	kind:variable	line:73
+t	../py/buttons.py	/^t = np.arange(0.0, 1.0, 0.001)$/;"	kind:variable	line:9
+test_get_and_set_value	../py/mocking/example_presenter_test.py	/^    def test_get_and_set_value(self):$/;"	kind:member	line:24
+test_set_value	../py/mocking/example_presenter_test.py	/^    def test_set_value(self):$/;"	kind:member	line:35
+to_be_imported.py	../py/importing/to_be_imported.py	1;"	kind:file	line:1
+toggle_selector	../py/methplotlib_rectangle.py	/^def toggle_selector(event):$/;"	kind:function	line:23
+toggle_selector	../py/rectangle_selector.py	/^def toggle_selector(event):$/;"	kind:function	line:25
+update_figure	../py/matplotlib_pyqt.py	/^    def update_figure(self):$/;"	kind:member	line:70
+utf8.py	../py/utf8.py	1;"	kind:file	line:1
+vis_select.py	../py/vis_select.py	1;"	kind:file	line:1
+x	../py/methplotlib_rectangle.py	/^x = np.linspace(0.0, 10.0, N)  # improvement by use blitting!$/;"	kind:variable	line:35
+x	../py/rectangle_selector.py	/^x = np.linspace(0.0, 10.0, N)  # improvement by use blitting!$/;"	kind:variable	line:37
+x1	../py/vis_select.py	/^x1 = np.linspace(0.0, 5.0)$/;"	kind:variable	line:7
+x2	../py/vis_select.py	/^x2 = np.linspace(0.0, 2.0)$/;"	kind:variable	line:8
+y1	../py/vis_select.py	/^y1 = np.cos(2 * np.pi * x1) * np.exp(-x1)$/;"	kind:variable	line:10
+y2	../py/vis_select.py	/^y2 = np.cos(2 * np.pi * x2)$/;"	kind:variable	line:11

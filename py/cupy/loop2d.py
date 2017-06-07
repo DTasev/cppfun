@@ -1,13 +1,15 @@
 import cupy as cp
 
 
-def loop2d(data, kernel=3):
+def loop2d(data, kernel=3, out=None):
     """
     This should be doing a row-major traversal.
     The data is broadcast into a 1D array when transferred to the device.
     """
     # allocate memory for the output parameter
-    data_out = cp.zeros(data.shape, dtype=data.dtype)
+    if out is None:
+        out = cp.zeros(data.shape, dtype=data.dtype)
+
     f = cp.ElementwiseKernel(
         in_params='raw T in, int32 width, int32 kernel, int32 kernel_width',
         out_params='raw T out',
@@ -15,7 +17,7 @@ def loop2d(data, kernel=3):
         #include <stdio.h> // for debug
         """,
         operation=r"""
-        printf("index: %d\n", i);
+        printf("Starting thread with index: %d\n", i);
         for(int j = 0; j < width; ++j){
             int pos = i * width + j;
             printf("value at %d: %d\n", pos, in[pos]);
@@ -34,5 +36,5 @@ def loop2d(data, kernel=3):
     data_height = data.shape[1]
     # this is for the inner loop, looping over the columns
     data_width = data.shape[0]
-    # we pass in data_out as the output parameter
-    return f(data, data_width, kernel, kernel_width, data_out, size=data_height)
+    # we pass in out as the output parameter
+    return f(data, data_width, kernel, kernel_width, out, size=data_height)

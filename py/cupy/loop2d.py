@@ -10,17 +10,16 @@ def loop2d(data, kernel=3):
     data_out = cp.zeros(data.shape, dtype=data.dtype)
     f = cp.ElementwiseKernel(
         in_params='raw T in, int32 width, int32 kernel, int32 kernel_width',
-        out_params='T out',
+        out_params='raw T out',
         preamble=r"""
-        #include <stdio.h>
+        #include <stdio.h> // for debug
         """,
         operation=r"""
-        printf("image width: %d", width);
-        int col = i / width;
+        printf("index: %d\n", i);
         for(int j = 0; j < width; ++j){
-            int pos = col * j + j;
+            int pos = i * width + j;
             printf("value at %d: %d\n", pos, in[pos]);
-            out = in[pos] + 3;
+            out[pos] = in[pos] + 3; // apply some operation
         }
         """,
         name='loop2d',
@@ -32,8 +31,8 @@ def loop2d(data, kernel=3):
 
     kernel_width = (kernel - 1) / 2
     # this is for the outer for loop, looping over the rows
-    # data_height = data.shape[1]
+    data_height = data.shape[1]
     # this is for the inner loop, looping over the columns
     data_width = data.shape[0]
     # we pass in data_out as the output parameter
-    return f(data, data_width, kernel, kernel_width, data_out)
+    return f(data, data_width, kernel, kernel_width, data_out, size=data_height)

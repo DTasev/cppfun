@@ -15,10 +15,10 @@ pub fn handle_neighbours(x: &i32, y: &i32, neighbours: &i32, mut babyq: &VecDequ
 }
 
 fn main() {
-    let mut cellq: VecDeque<Cell> = VecDeque::with_capacity(START_CELLS);
+    let mut cellq: VecDeque<Cell> = VecDeque::with_capacity(NUM_CELLS);
     cellq.push_back(Cell::Alive {x: 3, y: 4, neighbours: 0});
 
-    let mut babyq: VecDeque<Cell> = VecDeque::with_capacity(START_CELLS);
+    let mut babyq: VecDeque<Cell> = VecDeque::with_capacity(NUM_CELLS);
 
     let grid = [[0; NUM_CELLS]; NUM_CELLS]; // 2D array NUM_CELLSxNUM_CELLS
 

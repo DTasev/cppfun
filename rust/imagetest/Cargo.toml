@@ -1,0 +1,7 @@
+[package]
+name = "imagetest"
+version = "0.1.0"
+authors = ["Dimitar Tasev <dbt@aber.ac.uk>"]
+
+[dependencies]
+image="*"

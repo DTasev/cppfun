@@ -1,0 +1,12 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "rust.rls": {
+        "executable": "rustup",
+        "useRustfmt": true,
+        "args": [
+            "run",
+            "nightly",
+            "rls"
+        ]
+    }
+}

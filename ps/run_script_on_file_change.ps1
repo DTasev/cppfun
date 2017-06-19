@@ -12,6 +12,7 @@ Function Register-Watcher {
         $name = $Event.SourceEventArgs.Name
         $changeType = $Event.SourceEventArgs.ChangeType
         $timeStamp = $Event.TimeGenerated
+        cargo fmt
         Write-Host "The file $name was $changeType at $timeStamp"
     ')
     Register-ObjectEvent $Watcher "Changed" -Action $changeAction

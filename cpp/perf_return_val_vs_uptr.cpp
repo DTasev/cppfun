@@ -31,8 +31,9 @@ using MyType = MyScreamingClass;
 static const int N = 5;
 static const int ITERS = 1;
 #else
-using MyType = std::vector<int>;
-static const int N = 100;
+using TheDataType = int;
+using MyType = std::vector<TheDataType>;
+static const int N = 1000;
 static const int ITERS = 30000;
 #endif
 
@@ -95,9 +96,9 @@ int main(int argc, char **argv) {
 
   std::vector<MyType> vec;
   for (int i = 0; i < N; ++i) {
-    vec.emplace_back(std::vector<int>{3,   4,  5,  6,  4,   14, 14,  1, 41,
-                                      41,  41, 4,  35, 314, 1,  35,  1, 35,
-                                      315, 31, 51, 35, 135, 4,  134, 1});
+    vec.emplace_back(std::vector<TheDataType>{
+        3,   4, 5,  6, 4,  14,  14, 1,  41, 41,  41, 4,   35,
+        314, 1, 35, 1, 35, 315, 31, 51, 35, 135, 4,  134, 1});
   }
 
   std::vector<MyType> out;

@@ -8,12 +8,13 @@ constexpr size_t length( char const (&)[N] )
 	return N-1;
 }
 
-constexpr void check_assert(char const * &&par){
-	static_assert( length(par) > 3, "string length is not 3" );
+constexpr void check_assert(auto &&par){
+	static_assert(length(par) > 3, "string length is not 3");
+    ff(par);
 }
 
 int main() {
-	check_assert("1233");
+	check_assert("123d");
 	// your code goes here
 	return 0;
 }

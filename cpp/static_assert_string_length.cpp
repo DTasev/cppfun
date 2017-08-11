@@ -10,7 +10,6 @@ constexpr size_t length( char const (&)[N] )
 
 constexpr void check_assert(auto &&par){
 	static_assert(length(par) > 3, "string length is not 3");
-    ff(par);
 }
 
 int main() {

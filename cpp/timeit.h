@@ -6,7 +6,7 @@
 #include <string>
 #include <vector>
 
-void timeit(const std::function<void()> &to_be_timed, const size_t iterations,
+inline void timeit(const std::function<void()> &to_be_timed, const size_t iterations,
             const std::string &name = "Test") {
   std::cout << "Iterations: " << iterations << '\n';
   std::chrono::time_point<std::chrono::system_clock> start, end;

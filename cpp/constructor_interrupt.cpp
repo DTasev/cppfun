@@ -21,7 +21,7 @@ int main() {
   try {
     A a(ff);
   } catch (...) {
-    printf("we leaked\n%d", ff);
+    printf("we leaked\n%d", *ff);
   }
   printf("we didnt throw\n%d", *ff);
 }
